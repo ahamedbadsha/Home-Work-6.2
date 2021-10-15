@@ -1,0 +1,53 @@
+/*common css start*/
+body{
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+}
+/*common css end*/
+/*header start*/
+header{
+	background-color:#121B2A;
+	border: 1px solid black;
+}
+.wrappar{
+	margin: 0 auto;
+	overflow: hidden;
+	width: 75%;
+	border: 1px solid black;
+}
+.logo{
+	float: left;
+	width: 13%;
+	padding: 0px 0;
+}
+.logo > img{
+	width: 100%;
+}
+.menu{
+	float: right;
+	width: 63%;
+	padding:2Spx 0 ;
+}
+.menu > ul{
+	float: right;
+	padding: 20px 0;
+	list-style: none;
+}
+.menu >ul > li{
+	float: left;
+}
+.menu > ul > li >a{
+	text-decoration: none;
+	padding: 0 25px;
+	display: inline-block;
+	color: #FFFFFF;
+
+}
+.menu > ul > li:last-child>a{
+	padding-right: 0;
+}
+.menu > ul > li:first-child>a{
+	color: #007ABC;
+}
+/*header end*/
